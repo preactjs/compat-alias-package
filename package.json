@@ -1,0 +1,12 @@
+{
+  "public": true,
+  "name": "@preact/compat",
+  "version": "0.0.1",
+  "description": "Alias of preact/compat",
+  "main": "index.js",
+  "module": "index.module.js",
+  "repository": "preactjs/preact",
+  "author": "Preact Team <team@preactjs.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/preactjs/preact"
+}
