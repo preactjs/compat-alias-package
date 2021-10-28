@@ -3,13 +3,40 @@
   "name": "@preact/compat",
   "version": "17.0.2",
   "description": "Alias of preact/compat",
-  "main": "index.js",
-  "module": "index.module.js",
-  "repository": "preactjs/preact",
+  "main": "./index.js",
+  "module": "./index.mjs",
+  "exports": {
+    ".": {
+      "module": "./index.mjs",
+      "import": "./index.mjs",
+      "require": "./index.js"
+    },
+    "./server": {
+      "module": "./server.mjs",
+      "import": "./server.mjs",
+      "require": "./server.js"
+    },
+    "./jsx-dev-runtime": {
+      "module": "./jsx-dev-runtime.mjs",
+      "import": "./jsx-dev-runtime.mjs",
+      "require": "./jsx-dev-runtime.js"
+    },
+    "./jsx-runtime": {
+      "module": "./jsx-runtime.mjs",
+      "import": "./jsx-runtime.mjs",
+      "require": "./jsx-runtime.js"
+    },
+    "./*": "./*.js",
+    "./": "./"
+  },
+  "repository": "preactjs/compat-alias-package",
   "author": "Preact Team <team@preactjs.com>",
   "license": "MIT",
-  "homepage": "https://github.com/preactjs/preact",
+  "homepage": "https://preactjs.com",
   "peerDependencies": {
     "preact": "*"
+  },
+  "devDependencies": {
+    "preact": "^10.5.15"
   }
 }
