@@ -12,6 +12,7 @@
       "require": "./index.js"
     },
     "./server": {
+      "browser": "./server.browser.js",
       "module": "./server.mjs",
       "import": "./server.mjs",
       "require": "./server.js"
