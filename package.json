@@ -30,6 +30,11 @@
       "module": "./jsx-runtime.mjs",
       "import": "./jsx-runtime.mjs",
       "require": "./jsx-runtime.js"
+    },
+    "./test-utils": {
+      "module": "./test-utils.mjs",
+      "import": "./test-utils.mjs",
+      "require": "./test-utils.js"
     }
   },
   "repository": "preactjs/compat-alias-package",
