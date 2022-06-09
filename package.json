@@ -40,6 +40,11 @@
       "module": "./client.mjs",
       "import": "./client.mjs",
       "require": "./client.js"
+    },
+    "./scheduler": {
+      "module": "./scheduler.mjs",
+      "import": "./scheduler.mjs",
+      "require": "./scheduler.js"
     }
   },
   "repository": "preactjs/compat-alias-package",
