@@ -35,6 +35,11 @@
       "module": "./test-utils.mjs",
       "import": "./test-utils.mjs",
       "require": "./test-utils.js"
+    },
+    "./client": {
+      "module": "./client.mjs",
+      "import": "./client.mjs",
+      "require": "./client.js"
     }
   },
   "repository": "preactjs/compat-alias-package",
