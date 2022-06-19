@@ -45,7 +45,8 @@
       "module": "./scheduler.mjs",
       "import": "./scheduler.mjs",
       "require": "./scheduler.js"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "repository": "preactjs/compat-alias-package",
   "author": "Preact Team <team@preactjs.com>",
