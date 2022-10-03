@@ -1,45 +1,49 @@
 {
-  "public": true,
-  "name": "@preact/compat",
-  "version": "17.1.1",
-  "description": "Alias of preact/compat",
-  "main": "./index.js",
-  "module": "./index.mjs",
-  "exports": {
-    ".": {
-      "module": "./index.mjs",
-      "import": "./index.mjs",
-      "require": "./index.js"
-    },
-    "./server": {
-      "module": "./server.mjs",
-      "import": "./server.mjs",
-      "require": "./server.js"
-    },
-    "./server.browser": {
-      "module": "./server.mjs",
-      "import": "./server.mjs",
-      "require": "./server.js"
-    },
-    "./jsx-dev-runtime": {
-      "module": "./jsx-dev-runtime.mjs",
-      "import": "./jsx-dev-runtime.mjs",
-      "require": "./jsx-dev-runtime.js"
-    },
-    "./jsx-runtime": {
-      "module": "./jsx-runtime.mjs",
-      "import": "./jsx-runtime.mjs",
-      "require": "./jsx-runtime.js"
-    }
-  },
-  "repository": "preactjs/compat-alias-package",
-  "author": "Preact Team <team@preactjs.com>",
-  "license": "MIT",
-  "homepage": "https://preactjs.com",
-  "peerDependencies": {
-    "preact": "*"
-  },
-  "devDependencies": {
-    "preact": "^10.5.15"
-  }
+	"public": true,
+	"name": "@preact/compat",
+	"version": "17.1.1",
+	"description": "Alias of preact/compat",
+	"main": "./index.js",
+	"module": "./index.mjs",
+	"exports": {
+		".": {
+			"module": "./index.mjs",
+			"import": "./index.mjs",
+			"require": "./index.js"
+		},
+		"./server": {
+			"module": "./server.mjs",
+			"import": "./server.mjs",
+			"require": "./server.js"
+		},
+		"./server.browser": {
+			"module": "./server.mjs",
+			"import": "./server.mjs",
+			"require": "./server.js"
+		},
+		"./client": {
+			"import": "./client.mjs",
+			"require": "./client.js"
+		},
+		"./jsx-dev-runtime": {
+			"module": "./jsx-dev-runtime.mjs",
+			"import": "./jsx-dev-runtime.mjs",
+			"require": "./jsx-dev-runtime.js"
+		},
+		"./jsx-runtime": {
+			"module": "./jsx-runtime.mjs",
+			"import": "./jsx-runtime.mjs",
+			"require": "./jsx-runtime.js"
+		}
+	},
+	"repository": "preactjs/compat-alias-package",
+	"author": "Preact Team <team@preactjs.com>",
+	"license": "MIT",
+	"homepage": "https://preactjs.com",
+	"peerDependencies": {
+		"preact": "*"
+	},
+	"devDependencies": {
+		"preact": "^10.5.15"
+	}
 }
