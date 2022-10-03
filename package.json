@@ -21,6 +21,10 @@
       "import": "./server.mjs",
       "require": "./server.js"
     },
+    "./client": {
+      "import": "./client.mjs",
+      "require": "./client.js"
+    },
     "./jsx-dev-runtime": {
       "module": "./jsx-dev-runtime.mjs",
       "import": "./jsx-dev-runtime.mjs",
