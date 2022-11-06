@@ -45,6 +45,6 @@
     "preact": "*"
   },
   "devDependencies": {
-    "preact": "^10.9.0"
+    "preact": "^10.11.2"
   }
 }
