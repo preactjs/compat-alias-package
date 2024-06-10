@@ -1,7 +1,7 @@
 {
   "public": true,
   "name": "@preact/compat",
-  "version": "17.1.2",
+  "version": "18.3.1",
   "description": "Alias of preact/compat",
   "main": "./index.js",
   "module": "./index.mjs",
