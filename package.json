@@ -21,6 +21,11 @@
       "import": "./server.mjs",
       "require": "./server.js"
     },
+    "./server.edge": {
+      "module": "./server.mjs",
+      "import": "./server.mjs",
+      "require": "./server.js"
+    },
     "./client": {
       "import": "./client.mjs",
       "require": "./client.js"
